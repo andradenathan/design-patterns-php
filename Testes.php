@@ -3,12 +3,13 @@
 require 'vendor/autoload.php';
 
 use Source\Orcamento;
+use Source\CalculadoraDeDescontos;
 use Source\Calculadora;
 use Source\Impostos\ICMS;
 
-$calculadora = new Calculadora();
+$calculadora = new CalculadoraDeDescontos();
 $orcamento = new Orcamento();
-$orcamento->valor = 17653.96;
-$icms = new ICMS();
+$orcamento->valor = 6500.0;
+$orcamento->quantidadeItens = 10;
 
-echo "{$calculadora->calcula($orcamento, $icms)}\n"; 
+echo "{$calculadora->calculaDesconto($orcamento)}\n"; 
