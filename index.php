@@ -4,8 +4,6 @@ require 'vendor/autoload.php';
 
 use Source\Orcamento;
 use Source\CalculadoraDeDescontos;
-use Source\Calculadora;
-use Source\Impostos\ICMS;
 
 $calculadora = new CalculadoraDeDescontos();
 $orcamento = new Orcamento();

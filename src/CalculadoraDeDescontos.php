@@ -2,7 +2,6 @@
 
 namespace Source;
 
-use Source\Descontos\Desconto;
 use Source\Orcamento;
 use Source\Descontos\Itens;
 use Source\Descontos\ItensCaros;
