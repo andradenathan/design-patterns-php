@@ -4,3 +4,4 @@ Padrões de projetos aprendidos através da Alura:
 - Chain of Responsibility
 - Template Method
 - State
+- Command
