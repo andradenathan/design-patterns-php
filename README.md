@@ -5,3 +5,5 @@ Padrões de projetos aprendidos através da Alura:
 - Template Method
 - State
 - Command
+- Observer
+- Iterator
